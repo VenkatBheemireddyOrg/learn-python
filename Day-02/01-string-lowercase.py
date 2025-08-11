@@ -1,7 +1,7 @@
 text = "PYTHON is awesome"
 
-uppercase = upper(text)
-lowercase = lower(text)
+uppercase = text.upper()
+lowercase = text.lower()
 
 print("Uppercase String is ", uppercase)
 print("Lowercase String is ", lowercase)
