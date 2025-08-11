@@ -4,4 +4,3 @@ player_name  = "Alex"
 print("Player Name : ", player_name)
 
 print("Player Score: ", player_score)
-
