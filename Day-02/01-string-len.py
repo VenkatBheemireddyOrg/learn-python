@@ -1,3 +1,3 @@
 text = "python is awesome"
-length = len(text)
+length = text.len()
 print("length of the string is ", length)
