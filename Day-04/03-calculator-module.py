@@ -1,3 +1,5 @@
 import calculator_basic as basic_calc
 
 basic_calc
+
+basic_calc.addition()
