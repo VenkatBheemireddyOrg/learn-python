@@ -1,3 +1,3 @@
-import 01-calculator-basic as basic-calc
+import calculator_basic as basic_calc
 
-basic-calc
+basic_calc
