@@ -20,3 +20,13 @@ if operator == "add":
     print(operator, output)
 
 
+if operator == "sub":
+    output = sub(num1, num2)
+    print(operator, output)
+
+
+if operator == "mul":
+    output = mul(num1, num2)
+    print(operator, output)
+
+
