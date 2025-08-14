@@ -10,6 +10,7 @@ def sub(num1, num2):
 
 def mul(num1, num2):
     z = num1 * num2
+    return z
 
 num1 = int(sys.argv[1])    #by default arguments will be taken as string, so
 operator = sys.argv[2]     #convert to integer
@@ -23,7 +24,6 @@ if operator == "add":
 if operator == "sub":
     output = sub(num1, num2)
     print(operator, output)
-
 
 if operator == "mul":
     output = mul(num1, num2)
