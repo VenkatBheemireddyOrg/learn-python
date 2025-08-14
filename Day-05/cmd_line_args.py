@@ -11,9 +11,9 @@ def sub(num1, num2):
 def mul(num1, num2):
     z = num1 * num2
 
-num1 = sys.argv[1]
-operator = sys.argv[2]
-num2 = sys.argv[3]
+num1 = int(sys.argv[1])    #by default arguments will be taken as string, so
+operator = sys.argv[2]     #convert to integer
+num2 = int(sys.argv[3])
 
 if operator == "add":
     output = add(num1, num2)
