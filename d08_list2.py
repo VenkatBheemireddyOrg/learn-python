@@ -8,7 +8,7 @@ new_list = my_list + [20,50]
 print("new_list", new_list)
 
 new_list.sort()
-print("new_list_sorted", new_list_sort)
+print("new_list_sorted", new_list)
 
 slice_list = new_list[0:3]
 print("slice_list", slice_list)
