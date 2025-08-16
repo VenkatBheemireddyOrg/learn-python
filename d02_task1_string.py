@@ -14,6 +14,19 @@ m7 = mobile[8:9]
 m8 = mobile[9:10]
 m9 = mobile[10:11]
 
+print(m1)
+print(m2)
+print(m3)
+print(m4)
+print(m5)
+print(m6)
+print(m7)
+print(m8)
+print(m9)
+
+print(s1)
+print(s1)
+
 result = True
 
 if s1 != "-":
@@ -22,7 +35,7 @@ if s1 != "-":
 if s2 != "-":
     result = False
 
-print(m1)
+
 
 if m1 not in my_list :
     result = False
@@ -51,4 +64,4 @@ if m8 not in my_list :
 if m9 not in my_list :
     result = False
 
-print("result is :", result)
+print("result is :", result, mobile)
