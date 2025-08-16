@@ -22,7 +22,7 @@ if s2 != "-":
 
 print(m1)
 
-if m1 != "0" or "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" :
+if m1 == "0" or "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9" :
     result = False
 
 if m2 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
