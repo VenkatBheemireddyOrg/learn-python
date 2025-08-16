@@ -1,8 +1,8 @@
-mobile = "123-567-901"
+mobile = "012-456-890"
 
 part1 = mobile[0:3]
-part2 = mobile[5:3]
-part3 = mobile[9:3]
+part2 = mobile[4:8]
+part3 = mobile[8:11]
 
 print(part1)
 print(part2)
