@@ -10,6 +10,6 @@ print(s3_bucket_list)
 print(len(s3_bucket_list))
 
 
-new_s3_bucket_list = s3_bucket_list[0:2]
+new_s3_bucket_list = s3_bucket_list[1:2]
 print(new_s3_bucket_list)
 print(len(new_s3_bucket_list))
