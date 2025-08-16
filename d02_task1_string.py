@@ -1,7 +1,7 @@
 mobile = "012-456-890"
 
 part1 = mobile[0:3]
-part2 = mobile[4:8]
+part2 = mobile[4:7]
 part3 = mobile[8:11]
 
 print(part1)
