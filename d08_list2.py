@@ -12,3 +12,6 @@ print("new_list_sorted", new_list)
 
 slice_list = new_list[0:3]
 print("slice_list", slice_list)
+
+is_present = 40 in my_list
+print("is_present", is_present)
