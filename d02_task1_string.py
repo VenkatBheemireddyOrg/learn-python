@@ -36,7 +36,6 @@ if s2 != "-":
     result = False
 
 
-
 if m1 not in my_list :
     result = False
 
