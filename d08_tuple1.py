@@ -13,4 +13,5 @@ print("element is present :", element)
 ## tuple doesn't support append operation
 ## my_tuple.append(80)
 
-my_tuple.remove(30)
+## tuple doesn't support remove operation
+## my_tuple.remove(30)
