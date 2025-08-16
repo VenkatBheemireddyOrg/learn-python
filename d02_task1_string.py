@@ -1,70 +1,37 @@
-mobile = "012-456-890"
+mob_nbr = "012-456-890"
 
-my_list = ["0","1","2","3","4","5","6","7","8","9"]
+mob_nbr_part1 = mob_nbr[0:3]
+mob_nbr_part2 = mob_nbr[4:7]
+mob_nbr_part3 = mob_nbr[8:11]
 
-m1 = mobile[0:1]
-m2 = mobile[1:2]
-m3 = mobile[2:3]
+mob_nbr_delimit1 = mob_nbr[3:4]
+mob_nbr_delimit2 = mob_nbr[7:8]
 
-s1 = mobile[3:4]
+print("mob_nbr_part1 :", mob_nbr_part1)
+print("mob_nbr_part2 :", mob_nbr_part2)
+print("mob_nbr_part3 :", mob_nbr_part3)
 
-m4 = mobile[4:5]
-m5 = mobile[5:6]
-m6 = mobile[6:7]
+print("mob_nbr_delimit1 :", mob_nbr_delimit1)
+print("mob_nbr_delimit2 :", mob_nbr_delimit2)
 
-s2 = mobile[7:8]
+valid = True
 
-m7 = mobile[8:9]
-m8 = mobile[9:10]
-m9 = mobile[10:11]
+if not mob_nbr_delimit1 == "-":
+    valid = False
 
-print(m1)
-print(m2)
-print(m3)
-print(m4)
-print(m5)
-print(m6)
-print(m7)
-print(m8)
-print(m9)
+if not mob_nbr_delimit2 == "-":
+    valid = False
 
-print(s1)
-print(s1)
+if not mob_nbr_part1.isdigit():
+    valid = False
 
-result = True
+if not mob_nbr_part2.isdigit():
+    valid = False
 
-if s1 != "-":
-    result = False
+if not mob_nbr_part2.isdigit():
+    valid = False
 
-if s2 != "-":
-    result = False
+if not mob_nbr_part3.isdigit():
+    valid = False
 
-
-if m1 not in my_list :
-    result = False
-
-if m2 not in my_list :
-    result = False
-
-if m3 not in my_list :
-    result = False
-
-if m4 not in my_list :
-    result = False
-
-if m5 not in my_list :
-    result = False
-
-if m6 not in my_list :
-    result = False
-
-if m7 not in my_list :
-    result = False
-
-if m8 not in my_list :
-    result = False
-
-if m9 not in my_list :
-    result = False
-
-print("result is :", result, mobile)
+print("Mobile Number and Result is :", mob_nbr, valid)
