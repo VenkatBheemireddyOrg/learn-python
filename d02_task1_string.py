@@ -40,7 +40,7 @@ if s2 != "-":
     result = False
 
 
-if m1 not in my_list :
+if m1 and m2 and m3 and m4 and m5 and m6 and m7 and m8 and m9 not in my_list :
     result = False
 
 if m2 not in my_list :
