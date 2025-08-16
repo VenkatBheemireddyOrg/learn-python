@@ -27,28 +27,28 @@ print(m1)
 if m1 not in my_list :
     result = False
 
-if m2 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m2 not in my_list :
     result = False
 
-if m3 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m3 not in my_list :
     result = False
 
-if m4 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m4 not in my_list :
     result = False
 
-if m5 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m5 not in my_list :
     result = False
 
-if m6 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m6 not in my_list :
     result = False
 
-if m7 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m7 not in my_list :
     result = False
 
-if m8 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m8 not in my_list :
     result = False
 
-if m9 != "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" :
+if m9 not in my_list :
     result = False
 
 print("result is :", result)
