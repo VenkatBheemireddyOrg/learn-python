@@ -5,11 +5,15 @@ my_list = ["0","1","2","3","4","5","6","7","8","9"]
 m1 = mobile[0:1]
 m2 = mobile[1:2]
 m3 = mobile[2:3]
+
 s1 = mobile[3:4]
+
 m4 = mobile[4:5]
 m5 = mobile[5:6]
 m6 = mobile[6:7]
+
 s2 = mobile[7:8]
+
 m7 = mobile[8:9]
 m8 = mobile[9:10]
 m9 = mobile[10:11]
