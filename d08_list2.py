@@ -1,5 +1,6 @@
 my_list = [10,70,40, 30, 60, 90, 80]
 print("my_list", my_list)
+print("my_list_sorted", my_list.sort())
 
 new_list = my_list + [20,50]
 print("new_list", new_list)
