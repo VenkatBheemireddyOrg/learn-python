@@ -15,3 +15,7 @@ print("element is present :", element)
 
 ## tuple doesn't support remove operation
 ## my_tuple.remove(30)
+
+new_tuple = my_tuple + (80, "apple", 90, "mango")
+print("new_tuple :", new_tuple)
+print("new_tuple_length :", len(new_tuple))
