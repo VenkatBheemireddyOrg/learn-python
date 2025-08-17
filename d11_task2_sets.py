@@ -9,6 +9,8 @@ print("After removal :", my_set)
 
 set1 = {1,2,3,4}
 set2 = {3,4,5,6}
+print("set1 :", set1)
+print("set2 :", set2)
 
 union_set = set1.union(set2)
 print("union_set :", union_set)
