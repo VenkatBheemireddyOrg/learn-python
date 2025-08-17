@@ -4,8 +4,14 @@ folders = input("Please provide list of folder names separated by spaces :").spl
 print("Input Folders :", folders)
 
 for folder in folders:
-    files = os.listdir(folder)
-    print("Processing Folder is :", folder)
-
+    try:
+        files = os.listdir(folder)
+        print("Processing Folder is :", folder)
+    except FileNotFoundError:
+        print("Given folder name is not present :", folder)
+        break
+    except PermissionError:
+        print("No access to the given folder :", folder)
+        break
     for file in files:
-        print(file)
+        print("File details are :", file)
