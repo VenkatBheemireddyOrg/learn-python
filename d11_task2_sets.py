@@ -20,7 +20,7 @@ difference_set = set1.difference(set2)
 print("difference_set :", difference_set)
 
 is_subset = set1.issubset(set2)
-print("is_subset :", issubset)
+print("is_subset :", is_subset)
 
 is_superset = set1.issuperset(set2)
 print("is_superset :", is_superset)
