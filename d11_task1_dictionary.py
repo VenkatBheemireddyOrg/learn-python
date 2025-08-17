@@ -13,4 +13,10 @@ print(my_dict["occupation"])
 
 # Deleting from dictionary
 del my_dict["city"]
-print(my_dict["city"])
+if "city" in my_dict:
+    print(my_dict["city"])
+else:
+    print("city is not present in my_dict")
+
+for key,value in my_dict.items():
+    print(key,value)
