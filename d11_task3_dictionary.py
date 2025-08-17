@@ -13,7 +13,7 @@ server_config = {
 # Function for Retrieval:
 # .get('status', 'Server not found'))
 def get_server_status(server_name):
-    return (server_config.get(server_name, {}))
+    return (server_config.get(server_name, {}).get('status', 'Server not found'))
 
 server_name = 'server2'
 status = get_server_status(server_name)
