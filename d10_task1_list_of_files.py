@@ -8,10 +8,10 @@ for folder in folders:
         files = os.listdir(folder)
         print("Processing Folder is :", folder)
     except FileNotFoundError:
-        print("Error:1201 - Given folder name is not present :", folder)
+        print("ErrorCode:1201 - Given folder name is not present :", folder)
         continue
     except PermissionError:
-        print("Error:1202 - No access to the given folder :", folder)
+        print("ErrorCode:1202 - No access to the given folder :", folder)
         continue
     for file in files:
         print("File details are :", file)
