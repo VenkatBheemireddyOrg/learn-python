@@ -11,3 +11,6 @@ print(my_dict["age"])
 my_dict["occupation"] = "engineer"
 print(my_dict["occupation"])
 
+# Deleting from dictionary
+del my_dict["city"]
+print(my_dict["city"])
