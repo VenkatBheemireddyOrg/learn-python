@@ -7,4 +7,4 @@ response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pull
 # converting json as dictionary
 complete_detail = response.json()
 
-print(complete_dtail[0])
+print(complete_detail[0])
